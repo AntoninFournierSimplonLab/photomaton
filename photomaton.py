@@ -147,8 +147,8 @@ while True : #boucle jusqu'a interruption
     try:
         print "\n attente boucle"
         
-        camera = PiCamera()
-        camera.start_preview()
+        #camera = PiCamera()
+        #camera.start_preview()
         
         
         
@@ -163,8 +163,8 @@ while True : #boucle jusqu'a interruption
         #on lance le decompte
         minuterie()
         
-        camera.stop_preview()
-        camera.close()
+        #camera.stop_preview()
+        #camera.close()
         
         #on genere le nom de la photo avec heure_min_sec
         date_today = datetime.now()
